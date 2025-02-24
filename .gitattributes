@@ -1,0 +1,11 @@
+# Установить по умолчанию автоматическое нормализацию окончания строк. [1](https://www.codebales.com/step-step-guide-resolving-line-ending-issues-git)
+* text=auto
+# Экplicitно объявить текстовые файлы, которые нужно всегда нормализовать и конвертировать в LF при проверке. [1](https://www.codebales.com/step-step-guide-resolving-line-ending-issues-git)
+*.php text eol=lf
+*.inc text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+# Обозначить все файлы, которые действительно бинарные и не должны быть модифицированы. [1](https://www.codebales.com/step-step-guide-resolving-line-ending-issues-git)
+*.png binary
+*.jpg binary
+*.gif binary

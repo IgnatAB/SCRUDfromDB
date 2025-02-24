@@ -1,6 +1,8 @@
 package org.example;
 
 public class Goods {
+    //класс для создания объектов наших товаров.
+
     private int id;
     private String title;
     private float price;
